@@ -3,27 +3,29 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace EsotericUtilities.AssetStorage
+namespace EsotericUtilities
 {
     public abstract class AssetStorage<T> : ScriptableObject where T : UnityEngine.Object
     {
-        public List<T> Store => store;
-        public string[] AssetFolderPath;
-        [SerializeField] protected List<T> store;
-        protected void UpdateAssets()
+        [field: SerializeField] public List<T> Store { get; protected set; } = new List<T>();
+
+#if UNITY_EDITOR
+        [SerializeField] protected string[] AssetFolderPath;
+        protected virtual void UpdateAssets()
         {
-            store.Clear();
+            Store.Clear();
             foreach (var dir in AssetFolderPath)
             {
                 string[] fileNames = Directory.GetFiles(dir);
                 foreach (var file in fileNames)
                 {
                     T t = (T)AssetDatabase.LoadAssetAtPath(file, typeof(T));
-                    if (t != null) store.Add(t);
+                    if (t != null) Store.Add(t);
                 }
             }
         }
         protected virtual void OnValidate() => UpdateAssets();
+#endif
     }
 }
 

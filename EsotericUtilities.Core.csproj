@@ -9,7 +9,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>EsotericUtilities</RootNamespace>
     <ProjectGuid>{60B2C22B-5C88-FE77-F6F0-40FA40EE77F7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -61,17 +61,19 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Core\ObjectPool\ObjectPool.cs" />
-    <Compile Include="Assets\Scripts\Core\SerializationUtility.cs" />
+    <Compile Include="Assets\Scripts\Core\Bootstrapper\IInitializable.cs" />
+    <Compile Include="Assets\Scripts\Core\ObjectPool\PoolManager.cs" />
     <Compile Include="Assets\Scripts\Core\GlobalEventChannel\EmptyGlobalEventChannel.cs" />
+    <Compile Include="Assets\Scripts\Core\SerializationUtilities\SerializationUtility.cs" />
     <Compile Include="Assets\Scripts\Core\GlobalEventChannel\GlobalBoolEventChannel.cs" />
     <Compile Include="Assets\Scripts\Core\GlobalEventChannel\GenericGlobalEventChannel.cs" />
-    <Compile Include="Assets\Scripts\Core\ObjectPool\Poolable.cs" />
     <Compile Include="Assets\Scripts\Core\GlobalEventChannel\GlobalIntEventChannel.cs" />
     <Compile Include="Assets\Scripts\Core\NumericExtensions.cs" />
     <Compile Include="Assets\Scripts\Core\ObjectPool\IPoolable.cs" />
+    <Compile Include="Assets\Scripts\Core\Bootstrapper\Bootstrapper.cs" />
     <Compile Include="Assets\Scripts\Core\GlobalEventChannel\GlobalFloatEventChannel.cs" />
-    <Compile Include="Assets\Scripts\Core\AssetStorage.cs" />
+    <Compile Include="Assets\Scripts\Core\ObjectPool\PoolableComponent.cs" />
+    <Compile Include="Assets\Scripts\Core\AssetStorage\AssetStorage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Core\EsotericUtilities.Core.asmdef" />
