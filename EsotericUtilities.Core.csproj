@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Core\SerializationUtilities\SerializationUtility.cs" />
     <Compile Include="Assets\Scripts\Core\GlobalEventChannel\GlobalBoolEventChannel.cs" />
     <Compile Include="Assets\Scripts\Core\GlobalEventChannel\GenericGlobalEventChannel.cs" />
+    <Compile Include="Assets\Scripts\Core\SceneUtilities\SceneUtilities.cs" />
     <Compile Include="Assets\Scripts\Core\GlobalEventChannel\GlobalIntEventChannel.cs" />
     <Compile Include="Assets\Scripts\Core\NumericExtensions.cs" />
     <Compile Include="Assets\Scripts\Core\ObjectPool\IPoolable.cs" />
