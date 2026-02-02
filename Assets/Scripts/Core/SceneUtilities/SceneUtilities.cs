@@ -21,9 +21,10 @@ namespace EsotericUtilities
         /// </summary>
         /// <typeparam name="T">Type to search for</typeparam>
         /// <param name="scene">Scene to search in</param>
-        /// <returns>A list of all instances of type T in given scene</returns>
+        /// <returns>A list of all instances of type T in given scene, null if scene is not loaded</returns>
         public static List<T> GetTypesInScene<T>(Scene scene)
         {
+            if(!scene.isLoaded) return null;
             return scene.GetTypes<T>();
         }
         /// <summary>
@@ -31,9 +32,10 @@ namespace EsotericUtilities
         /// </summary>
         /// <typeparam name="T">Type to search for</typeparam>
         /// <param name="scene">Scene to search in</param>
-        /// <returns>A list of all instances of type T in scene</returns>
+        /// <returns>A list of all instances of type T in scene, null if scene is not loaded</returns>
         public static List<T> GetTypes<T>(this Scene scene)
         {
+            if (!scene.isLoaded) return null;
             List<GameObject> GOList = scene.GetRootGameObjects().ToList();
             List<T> Returnables = new();
             GOList.ForEach(go => { Returnables.AddRange(go.GetComponentsInChildren<T>()); });
