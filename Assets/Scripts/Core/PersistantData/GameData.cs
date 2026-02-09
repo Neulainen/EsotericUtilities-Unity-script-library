@@ -3,10 +3,8 @@ using UnityEngine;
 namespace EsotericUtilities.PersistantData
 {
     [System.Serializable]
-    public abstract class GameData : ISerializationCallbackReceiver
+    public class GameData
     {
-        public abstract void OnAfterDeserialize();
 
-        public abstract void OnBeforeSerialize();
     }
 }

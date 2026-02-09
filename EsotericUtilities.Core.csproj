@@ -62,7 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Core\Bootstrapper\IInitializable.cs" />
-    <Compile Include="Assets\Scripts\Core\PersistantData\PersistantDataManager_ORIGINAL.cs" />
     <Compile Include="Assets\Scripts\Core\PersistantData\GameData.cs" />
     <Compile Include="Assets\Scripts\Core\ObjectPool\PoolManager.cs" />
     <Compile Include="Assets\Scripts\Core\PersistantData\LocalFileDataHandler.cs" />
@@ -78,6 +77,7 @@
     <Compile Include="Assets\Scripts\Core\PersistantData\IPersistantData.cs" />
     <Compile Include="Assets\Scripts\Core\Bootstrapper\Bootstrapper.cs" />
     <Compile Include="Assets\Scripts\Core\GlobalEventChannel\GlobalFloatEventChannel.cs" />
+    <Compile Include="Assets\Scripts\Core\PersistantData\ObjectSaveData.cs" />
     <Compile Include="Assets\Scripts\Core\ObjectPool\PoolableComponent.cs" />
     <Compile Include="Assets\Scripts\Core\AssetStorage\AssetStorage.cs" />
     <Compile Include="Assets\Scripts\Core\PersistantData\PersistantDataManager.cs" />
