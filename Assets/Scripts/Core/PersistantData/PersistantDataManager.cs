@@ -5,7 +5,7 @@ namespace EsotericUtilities.PersistantData
     public class PersistantDataManager : MonoBehaviour
     {
         GameData GameData;
-        FileDataHandler Handler;
+        DataHandler Handler;
         System.Collections.Generic.List<IPersistantData> persistantDataObjects = new();
         [SerializeField] string SaveFileName;
         [SerializeField] bool EncryptFile;

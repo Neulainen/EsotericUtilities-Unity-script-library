@@ -5,6 +5,6 @@ namespace EsotericUtilities.PersistantData
     [System.Serializable]
     public class GameData
     {
-
+        List<IPersistantData> Data;
     }
 }

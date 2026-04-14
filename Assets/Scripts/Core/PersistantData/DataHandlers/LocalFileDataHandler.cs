@@ -4,14 +4,16 @@ using UnityEngine;
 
 namespace EsotericUtilities.PersistantData
 {
-    public class LocalFileDataHandler : FileDataHandler
+    public class LocalFileDataHandler : DataHandler
     {
         private readonly string DataPath, DataFileName = "";
         private const string encryptionCode = "TESTWORD";
         public bool EncryptionOn;
 
-        public LocalFileDataHandler(string dataPath, string dataFileName) : base(dataPath, dataFileName)
+        public LocalFileDataHandler(string dataPath, string dataFileName)
         {
+            DataPath = dataPath;
+            DataFileName = dataFileName;
         }
 
         public override GameData Load()

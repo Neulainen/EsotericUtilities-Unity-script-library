@@ -3,8 +3,7 @@ namespace EsotericUtilities.PersistantData
 {
     public interface IPersistantData
     {
-
-        public void SaveData(ref GameData data);
-        public void LoadData(GameData data);
+        public void SaveData();
+        public void LoadData();
     }
 }
