@@ -61,25 +61,25 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Core\DataObject\DataObject.cs" />
-    <Compile Include="Assets\Scripts\Core\Bootstrapper\IInitializable.cs" />
-    <Compile Include="Assets\Scripts\Core\ObjectPool\PoolManager.cs" />
-    <Compile Include="Assets\Scripts\Core\GlobalEventChannel\EmptyGlobalEventChannel.cs" />
-    <Compile Include="Assets\Scripts\Core\SerializationUtilities\SerializationUtility.cs" />
-    <Compile Include="Assets\Scripts\Core\GlobalEventChannel\GlobalBoolEventChannel.cs" />
-    <Compile Include="Assets\Scripts\Core\GlobalEventChannel\GenericGlobalEventChannel.cs" />
-    <Compile Include="Assets\Scripts\Core\SceneUtilities\SceneUtilities.cs" />
-    <Compile Include="Assets\Scripts\Core\GlobalEventChannel\GlobalIntEventChannel.cs" />
-    <Compile Include="Assets\Scripts\Core\NumericExtensions.cs" />
-    <Compile Include="Assets\Scripts\Core\ObjectPool\IPoolable.cs" />
-    <Compile Include="Assets\Scripts\Core\Bootstrapper\Bootstrapper.cs" />
-    <Compile Include="Assets\Scripts\Core\GlobalEventChannel\GlobalFloatEventChannel.cs" />
-    <Compile Include="Assets\Scripts\Core\SingletonMonobehavior\SingletonMonoBehavior.cs" />
-    <Compile Include="Assets\Scripts\Core\ObjectPool\PoolableComponent.cs" />
-    <Compile Include="Assets\Scripts\Core\AssetStorage\AssetStorage.cs" />
+    <Compile Include="Assets\Scripts\GlobalEventChannel\GlobalBoolEventChannel.cs" />
+    <Compile Include="Assets\Scripts\Bootstrapper\Bootstrapper.cs" />
+    <Compile Include="Assets\Scripts\SceneUtilities\SceneUtilities.cs" />
+    <Compile Include="Assets\Scripts\NumericExtensions.cs" />
+    <Compile Include="Assets\Scripts\GlobalEventChannel\GlobalIntEventChannel.cs" />
+    <Compile Include="Assets\Scripts\DataObject\DataObject.cs" />
+    <Compile Include="Assets\Scripts\SingletonMonobehavior\SingletonMonoBehavior.cs" />
+    <Compile Include="Assets\Scripts\GlobalEventChannel\EmptyGlobalEventChannel.cs" />
+    <Compile Include="Assets\Scripts\Bootstrapper\IInitializable.cs" />
+    <Compile Include="Assets\Scripts\AssetStorage\AssetStorage.cs" />
+    <Compile Include="Assets\Scripts\ObjectPool\PoolManager.cs" />
+    <Compile Include="Assets\Scripts\ObjectPool\PoolableComponent.cs" />
+    <Compile Include="Assets\Scripts\GlobalEventChannel\GlobalFloatEventChannel.cs" />
+    <Compile Include="Assets\Scripts\ObjectPool\IPoolable.cs" />
+    <Compile Include="Assets\Scripts\SerializationUtilities\SerializationUtility.cs" />
+    <Compile Include="Assets\Scripts\GlobalEventChannel\GenericGlobalEventChannel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Scripts\Core\EsotericUtilities.Core.asmdef" />
+    <None Include="Assets\Scripts\EsotericUtilities.Core.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
