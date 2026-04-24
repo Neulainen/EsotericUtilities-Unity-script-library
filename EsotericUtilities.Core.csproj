@@ -61,21 +61,23 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\GlobalEventChannel\GlobalBoolEventChannel.cs" />
-    <Compile Include="Assets\Scripts\NumericExtensions.cs" />
-    <Compile Include="Assets\Scripts\GlobalEventChannel\GlobalIntEventChannel.cs" />
-    <Compile Include="Assets\Scripts\DataObject\DataObject.cs" />
-    <Compile Include="Assets\Scripts\SingletonMonobehavior\SingletonMonoBehavior.cs" />
-    <Compile Include="Assets\Scripts\GlobalEventChannel\EmptyGlobalEventChannel.cs" />
-    <Compile Include="Assets\Scripts\SerializableObjects\SerializedCurve.cs" />
-    <Compile Include="Assets\Scripts\AssetStorage\AssetStorage.cs" />
-    <Compile Include="Assets\Scripts\GlobalEventChannel\GlobalFloatEventChannel.cs" />
-    <Compile Include="Assets\Scripts\IdentifiableScriptableObject.cs" />
-    <Compile Include="Assets\Scripts\SerializationUtilities\SerializationUtility.cs" />
-    <Compile Include="Assets\Scripts\GlobalEventChannel\GenericGlobalEventChannel.cs" />
+    <Compile Include="Assets\EsotericUtilities\Scripts\AssetStorage\AssetStorage.cs" />
+    <Compile Include="Assets\EsotericUtilities\Scripts\GlobalEventChannel\GlobalBoolEventChannel.cs" />
+    <Compile Include="Assets\EsotericUtilities\Scripts\SerializableObjects\SerializedCurve.cs" />
+    <Compile Include="Assets\EsotericUtilities\Scripts\GlobalEventChannel\GlobalFloatEventChannel.cs" />
+    <Compile Include="Assets\EsotericUtilities\Scripts\SceneReferenceSystem\SceneReference.cs" />
+    <Compile Include="Assets\EsotericUtilities\Scripts\SceneReferenceSystem\SceneReferenceStorage.cs" />
+    <Compile Include="Assets\EsotericUtilities\Scripts\IdentifiableScriptableObject.cs" />
+    <Compile Include="Assets\EsotericUtilities\Scripts\GlobalEventChannel\EmptyGlobalEventChannel.cs" />
+    <Compile Include="Assets\EsotericUtilities\Scripts\GlobalEventChannel\GlobalIntEventChannel.cs" />
+    <Compile Include="Assets\EsotericUtilities\Scripts\GlobalEventChannel\GenericGlobalEventChannel.cs" />
+    <Compile Include="Assets\EsotericUtilities\Scripts\SingletonMonobehavior\SingletonMonoBehavior.cs" />
+    <Compile Include="Assets\EsotericUtilities\Scripts\DataObject\DataObject.cs" />
+    <Compile Include="Assets\EsotericUtilities\Scripts\SerializationUtilities\SerializationUtility.cs" />
+    <Compile Include="Assets\EsotericUtilities\Scripts\NumericExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Scripts\EsotericUtilities.Core.asmdef" />
+    <None Include="Assets\EsotericUtilities\Scripts\EsotericUtilities.Core.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.IO;
-using UnityEditor;
 using UnityEngine;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 namespace EsotericUtilities
 {
     public abstract class AssetStorage<T> : ScriptableObject where T : UnityEngine.Object
