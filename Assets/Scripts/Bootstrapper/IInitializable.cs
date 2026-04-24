@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace EsotericUtilities
+namespace EsotericUtilities.SceneSystems
 {
     public interface IInitializable
     {
