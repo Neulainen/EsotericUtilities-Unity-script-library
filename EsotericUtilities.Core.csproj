@@ -67,8 +67,10 @@
     <Compile Include="Assets\Scripts\DataObject\DataObject.cs" />
     <Compile Include="Assets\Scripts\SingletonMonobehavior\SingletonMonoBehavior.cs" />
     <Compile Include="Assets\Scripts\GlobalEventChannel\EmptyGlobalEventChannel.cs" />
+    <Compile Include="Assets\Scripts\SerializableObjects\SerializedCurve.cs" />
     <Compile Include="Assets\Scripts\AssetStorage\AssetStorage.cs" />
     <Compile Include="Assets\Scripts\GlobalEventChannel\GlobalFloatEventChannel.cs" />
+    <Compile Include="Assets\Scripts\IdentifiableScriptableObject.cs" />
     <Compile Include="Assets\Scripts\SerializationUtilities\SerializationUtility.cs" />
     <Compile Include="Assets\Scripts\GlobalEventChannel\GenericGlobalEventChannel.cs" />
   </ItemGroup>
