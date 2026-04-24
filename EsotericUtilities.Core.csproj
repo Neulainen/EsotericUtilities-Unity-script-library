@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Core\ObjectPool\IPoolable.cs" />
     <Compile Include="Assets\Scripts\Core\Bootstrapper\Bootstrapper.cs" />
     <Compile Include="Assets\Scripts\Core\GlobalEventChannel\GlobalFloatEventChannel.cs" />
+    <Compile Include="Assets\Scripts\Core\SingletonMonobehavior\SingletonMonoBehavior.cs" />
     <Compile Include="Assets\Scripts\Core\ObjectPool\PoolableComponent.cs" />
     <Compile Include="Assets\Scripts\Core\AssetStorage\AssetStorage.cs" />
   </ItemGroup>
