@@ -62,14 +62,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GlobalEventChannel\GlobalBoolEventChannel.cs" />
-    <Compile Include="Assets\Scripts\Bootstrapper\Bootstrapper.cs" />
-    <Compile Include="Assets\Scripts\SceneUtilities\SceneUtilities.cs" />
     <Compile Include="Assets\Scripts\NumericExtensions.cs" />
     <Compile Include="Assets\Scripts\GlobalEventChannel\GlobalIntEventChannel.cs" />
     <Compile Include="Assets\Scripts\DataObject\DataObject.cs" />
     <Compile Include="Assets\Scripts\SingletonMonobehavior\SingletonMonoBehavior.cs" />
     <Compile Include="Assets\Scripts\GlobalEventChannel\EmptyGlobalEventChannel.cs" />
-    <Compile Include="Assets\Scripts\Bootstrapper\IInitializable.cs" />
     <Compile Include="Assets\Scripts\AssetStorage\AssetStorage.cs" />
     <Compile Include="Assets\Scripts\ObjectPool\PoolManager.cs" />
     <Compile Include="Assets\Scripts\ObjectPool\PoolableComponent.cs" />
