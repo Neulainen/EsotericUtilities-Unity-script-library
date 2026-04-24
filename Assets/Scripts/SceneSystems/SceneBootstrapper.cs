@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace EsotericUtilities.SceneSystems
 {
-    public class Bootstrapper : MonoBehaviour
+    public class SceneBootstrapper : MonoBehaviour
     {
         List<IInitializable> initializables = new List<IInitializable>();
         public IEnumerator Bootstrap()

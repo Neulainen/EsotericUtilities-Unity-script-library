@@ -62,20 +62,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GlobalEventChannel\GlobalBoolEventChannel.cs" />
-    <Compile Include="Assets\Scripts\Bootstrapper\Bootstrapper.cs" />
-    <Compile Include="Assets\Scripts\SceneUtilities\SceneUtilities.cs" />
     <Compile Include="Assets\Scripts\NumericExtensions.cs" />
+    <Compile Include="Assets\Scripts\SceneSystems\SceneUtilities.cs" />
     <Compile Include="Assets\Scripts\GlobalEventChannel\GlobalIntEventChannel.cs" />
     <Compile Include="Assets\Scripts\DataObject\DataObject.cs" />
     <Compile Include="Assets\Scripts\SingletonMonobehavior\SingletonMonoBehavior.cs" />
     <Compile Include="Assets\Scripts\GlobalEventChannel\EmptyGlobalEventChannel.cs" />
-    <Compile Include="Assets\Scripts\Bootstrapper\IInitializable.cs" />
+    <Compile Include="Assets\Scripts\SceneSystems\SceneBootstrapper.cs" />
     <Compile Include="Assets\Scripts\AssetStorage\AssetStorage.cs" />
     <Compile Include="Assets\Scripts\ObjectPool\PoolManager.cs" />
     <Compile Include="Assets\Scripts\ObjectPool\PoolableComponent.cs" />
     <Compile Include="Assets\Scripts\GlobalEventChannel\GlobalFloatEventChannel.cs" />
     <Compile Include="Assets\Scripts\ObjectPool\IPoolable.cs" />
     <Compile Include="Assets\Scripts\SerializationUtilities\SerializationUtility.cs" />
+    <Compile Include="Assets\Scripts\SceneSystems\IInitializable.cs" />
     <Compile Include="Assets\Scripts\GlobalEventChannel\GenericGlobalEventChannel.cs" />
   </ItemGroup>
   <ItemGroup>
