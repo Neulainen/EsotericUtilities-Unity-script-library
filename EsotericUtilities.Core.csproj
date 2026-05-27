@@ -65,6 +65,7 @@
     <Compile Include="Assets\EsotericUtilities\Scripts\GlobalEventChannel\GlobalBoolEventChannel.cs" />
     <Compile Include="Assets\EsotericUtilities\Scripts\SerializableObjects\SerializedCurve.cs" />
     <Compile Include="Assets\EsotericUtilities\Scripts\GlobalEventChannel\GlobalFloatEventChannel.cs" />
+    <Compile Include="Assets\EsotericUtilities\Scripts\PoissonDisc\PoissonDisc.cs" />
     <Compile Include="Assets\EsotericUtilities\Scripts\SceneReferenceSystem\SceneReference.cs" />
     <Compile Include="Assets\EsotericUtilities\Scripts\SceneReferenceSystem\SceneReferenceStorage.cs" />
     <Compile Include="Assets\EsotericUtilities\Scripts\IdentifiableScriptableObject.cs" />
