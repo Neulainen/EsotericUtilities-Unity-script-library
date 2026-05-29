@@ -1,0 +1,16 @@
+{
+    "name": "EsotericUtilities.AvatarCustomizer",
+    "rootNamespace": "EsotericUtilities.AvatarCustomizer",
+    "references": [
+        "GUID:abb18c2cf9af4a549b726abb8fb95e67"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
